@@ -1,0 +1,58 @@
+#topnav{
+  background-color: #171717;
+  height: 30px;
+}
+li img{
+width: 25px;
+height: 25px;
+margin: 10px;
+}
+.active a{
+    color: darkorange !important;
+}
+#lowernav{
+  background-color: #242424;
+  height: 60px;
+  overflow: hidden;
+  z-index:-1
+}
+#lowernav li{
+  padding-top: 10px;
+  border-color: black !important;
+  border-width: thin !important;
+}
+.card{
+  border-style: none !important;
+}
+body{
+  background-color: #232323 !important;
+}
+#pilltab{
+     border-radius: 25px !important;
+     background-color: #232323 !important;
+}
+#pilltab li a{
+
+}
+#pilltab .active{
+background-color: inherit;
+color: darkorange;
+border-style: solid;
+border-top-style: none;
+border-right-style: none;
+border-left-style: none;
+
+}
+.nav-pills .nav-link{
+  border-radius: .0rem !important;
+
+}
+.regtext {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.regtext li{
+  color:white;
+}
